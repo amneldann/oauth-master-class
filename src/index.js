@@ -22,7 +22,7 @@ window.onload = () => {
          response_type: 'token',
          redirect_uri: '--https://oauth-master-class-pi.vercel.app/token.html--'
       },
-      '--https://oauth-master-class-pi.vercel.app--'
+      '--https://oauth-master-class-pi.vercel.app/--'
    )
    .then(({ handler }) => handler())
       .then(async (data) => {

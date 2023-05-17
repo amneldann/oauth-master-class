@@ -27,10 +27,8 @@ window.onload = () => {
    .then(({ handler }) => handler())
       .then(async (data) => {
         const result = await fetchYandexData(data.access_token);
-
-        authorize(result);
-
-        console.log(result, data);
+authorize(result);
+console.log(result, data);
       })
       .catch((error) => console.log("Что-то пошло не так: ", error));
   };

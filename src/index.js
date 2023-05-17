@@ -18,7 +18,7 @@ const fetchYandexData = (token) =>
 window.onload = () => {
   document.getElementById("suggest").onclick = () => {
    YaAuthSuggest.init({
-         client_id: '--9d1483502b454150a548804fb96747fb--', 
+         client_id: '--0922a220dcf3484f80040a5a82c8cacf--', 
          response_type: 'token',
          redirect_uri: '--https://oauth-master-class-pi.vercel.app/token.html--'
       },
